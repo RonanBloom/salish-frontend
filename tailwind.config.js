@@ -10,8 +10,20 @@ export default {
         './storage/framework/views/*.php',
         './resources/views/**/*.blade.php',
     ],
-
     theme: {
+        colors: {
+            'primary': 'D8D2C2',
+            'primary-varient': '4A4947',
+            'primary-text': '4A4947',
+            'secondary': 'B17457',
+            'secondary-varient': '4A4947',
+            'secondary-text': 'FAF7F0',
+            'surface': 'FAF7F0',
+            'surface-text': '4A4947',
+            'error': '',
+            'error-text': '',
+            'transparent' : 'transparent',
+        },
         extend: {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],

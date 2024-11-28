@@ -3,6 +3,14 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
+    return view('salish/home');
+});
+
+Route::get('/textbox', function () {
+    return view('salish/textbox');
+});
+
+Route::get('/welcome', function () { 
     return view('welcome');
 });
 
